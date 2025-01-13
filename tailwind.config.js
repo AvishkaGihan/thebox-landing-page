@@ -11,6 +11,7 @@ export default {
         secondary: "#F9995D",
         "accent-blue": "#3559C7",
         neutral: {
+          50: "#F6F8F7",
           100: "#E0E3EB",
           400: "#858EAD",
           700: "#3D445C",

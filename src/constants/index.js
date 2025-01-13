@@ -5,6 +5,13 @@ import complexImg from "../assets/images/sustainable-complex.jpg";
 import Headphones from "../assets/icons/headphone.svg";
 import Wrench from "../assets/icons/wrench.svg";
 
+import Building from "../assets/icons/Building.svg";
+import Settings from "../assets/icons/Settings.svg";
+import Users from "../assets/icons/Users.svg";
+import Tools from "../assets/icons/Tools.svg";
+import Compass from "../assets/icons/Compass.svg";
+import Zap from "../assets/icons/";
+
 export const navItems = [
   { name: "Home", href: "#" },
   { name: "About Us", href: "#" },
@@ -44,4 +51,13 @@ export const reputationItems = [
     title: "Best Designs",
     description: "Ultricies at ipsum nunc, tristique nam lectus.",
   },
+];
+
+export const services = [
+  { id: 1, title: "Construction", icon: Building },
+  { id: 2, title: "Renovation", icon: Settings },
+  { id: 3, title: "Consultation", icon: Users },
+  { id: 4, title: "Repair Services", icon: Tools },
+  { id: 5, title: "Architecture", icon: Compass },
+  { id: 6, title: "Electric", icon: Zap },
 ];
