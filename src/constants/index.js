@@ -10,7 +10,7 @@ import Settings from "../assets/icons/Settings.svg";
 import Users from "../assets/icons/Users.svg";
 import Tools from "../assets/icons/Tools.svg";
 import Compass from "../assets/icons/Compass.svg";
-import Zap from "../assets/icons/";
+import Zap from "../assets/icons/Zap.svg";
 
 export const navItems = [
   { name: "Home", href: "#" },

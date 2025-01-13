@@ -12,7 +12,7 @@ const ServicesSection = () => {
           id="service-heading"
           className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12"
         >
-          Our Reputation
+          Services
         </h2>
 
         <div
