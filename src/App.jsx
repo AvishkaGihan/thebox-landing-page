@@ -4,6 +4,7 @@ import ReputationSection from "./sections/ReputationSection";
 import AboutSection from "./sections/AboutSection";
 import ServicesSection from "./sections/ServicesSection";
 import AchievementsSection from "./sections/AchievementsSection";
+import ConsultationBanner from "./sections/ConsultationBanner";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <AboutSection />
         <ServicesSection />
         <AchievementsSection />
+        <ConsultationBanner />
       </main>
     </div>
   );
