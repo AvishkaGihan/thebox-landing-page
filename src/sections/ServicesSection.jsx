@@ -16,7 +16,7 @@ const ServicesSection = () => {
         </h2>
 
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-10 justify-items-center"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-20 gap-10 justify-items-center"
           role="list"
           aria-label="Services"
         >

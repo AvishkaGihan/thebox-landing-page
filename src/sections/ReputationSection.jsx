@@ -34,7 +34,7 @@ const ReputationSection = () => {
       <div className="max-w-7xl mx-auto">
         <h2
           id="reputation-heading"
-          className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12 animate-fade-in"
+          className="text-3xl md:text-4xl font-bold text-center text-neutral-800 mb-12 animate-fade-in"
         >
           Our Reputation
         </h2>
