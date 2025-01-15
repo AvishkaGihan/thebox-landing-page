@@ -5,6 +5,8 @@ import AboutSection from "./sections/AboutSection";
 import ServicesSection from "./sections/ServicesSection";
 import AchievementsSection from "./sections/AchievementsSection";
 import ConsultationBanner from "./sections/ConsultationBanner";
+import ProjectsGallery from "./sections/ProjectsGallery";
+import ContactForm from "./sections/ContactForm";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <ServicesSection />
         <AchievementsSection />
         <ConsultationBanner />
+        <ProjectsGallery />
+        <ContactForm />
       </main>
     </div>
   );

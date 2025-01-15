@@ -17,6 +17,11 @@ import ProjectsCompleted from "../assets/images/projects-completed.png";
 import AwardsWin from "../assets/images/awards-win.png";
 import YearsInBusiness from "../assets/images/years-in-business.png";
 
+import wildstoneInfra from "../assets/images/wildstone-infra.jpg";
+import wishStone from "../assets/images/wish-stone.jpg";
+import parkinston from "../assets/images/parkinston-house.jpg";
+import oreganoHeight from "../assets/images/oregano-height.jpg";
+
 export const navItems = [
   { name: "Home", href: "#" },
   { name: "About Us", href: "#" },
@@ -25,7 +30,7 @@ export const navItems = [
   { name: "Contact Us", href: "#", highlight: true },
 ];
 
-export const projects = [
+export const featuredProjects = [
   {
     title: "The National University of Architecture",
     image: architectureImg,
@@ -99,3 +104,36 @@ export const metrics = [
     iconPosition: "right-bottom",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    name: "Wildstone Infra Hotel",
+    address: "2715 Ash Dr. San Jose, South Dakota",
+    image: wildstoneInfra,
+    category: "Commercial",
+  },
+  {
+    id: 2,
+    name: "Wish Stone Building",
+    address: "2972 Westheimer Rd. Santa Ana, Illinois",
+    image: wishStone,
+    category: "Commercial",
+  },
+  {
+    id: 3,
+    name: "Mr. Parkinston's House",
+    address: "3517 W. Gray St. Utica, Pennsylvania",
+    image: parkinston,
+    category: "Residential",
+  },
+  {
+    id: 4,
+    name: "Oregano Height",
+    address: "2464 Royal Ln. Mesa, New Jersey",
+    image: oreganoHeight,
+    category: "Commercial",
+  },
+];
+
+export const categories = ["All", "Commercial", "Residential", "Other"];
