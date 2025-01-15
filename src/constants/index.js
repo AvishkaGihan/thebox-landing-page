@@ -23,11 +23,11 @@ import parkinston from "../assets/images/parkinston-house.jpg";
 import oreganoHeight from "../assets/images/oregano-height.jpg";
 
 export const navItems = [
-  { name: "Home", href: "#" },
-  { name: "About Us", href: "#" },
-  { name: "Projects", href: "#" },
-  { name: "Services", href: "#" },
-  { name: "Contact Us", href: "#", highlight: true },
+  { name: "Home", href: "#home" },
+  { name: "About Us", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Services", href: "#services" },
+  { name: "Contact Us", href: "#contact", highlight: true },
 ];
 
 export const featuredProjects = [
@@ -122,17 +122,38 @@ export const projects = [
   },
   {
     id: 3,
+    name: "Wish Stone Building",
+    address: "2972 Westheimer Rd. Santa Ana, Illinois",
+    image: wishStone,
+    category: "Commercial",
+  },
+  {
+    id: 4,
     name: "Mr. Parkinston's House",
     address: "3517 W. Gray St. Utica, Pennsylvania",
     image: parkinston,
     category: "Residential",
   },
   {
-    id: 4,
+    id: 5,
     name: "Oregano Height",
     address: "2464 Royal Ln. Mesa, New Jersey",
     image: oreganoHeight,
     category: "Commercial",
+  },
+  {
+    id: 6,
+    name: "Oregano Height",
+    address: "2464 Royal Ln. Mesa, New Jersey",
+    image: oreganoHeight,
+    category: "Commercial",
+  },
+  {
+    id: 7,
+    name: "Mr. Parkinston's House",
+    address: "3517 W. Gray St. Utica, Pennsylvania",
+    image: parkinston,
+    category: "Residential",
   },
 ];
 

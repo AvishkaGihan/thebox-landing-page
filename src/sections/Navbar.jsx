@@ -7,6 +7,23 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const scrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    const element = document.querySelector(sectionId);
+    if (element) {
+      const offset = 80; // Height of your fixed navbar
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
@@ -41,6 +58,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
+                onClick={(e) => scrollToSection(e, item.href)}
                 className={`${
                   item.highlight
                     ? "text-secondary font-semibold hover:text-orange-600"
@@ -76,6 +94,7 @@ const Navbar = () => {
             <a
               key={item.name}
               href={item.href}
+              onClick={(e) => scrollToSection(e, item.href)}
               className={`${
                 item.highlight
                   ? "text-secondary font-semibold hover:bg-orange-50"

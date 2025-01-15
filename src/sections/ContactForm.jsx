@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className=" bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div id="contact" className=" bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-neutral-800">

@@ -4,6 +4,7 @@ import { services } from "../constants";
 const ServicesSection = () => {
   return (
     <section
+      id="services"
       className="py-16 px-4 md:py-24 bg-neutral-50"
       aria-labelledby="service-heading"
     >

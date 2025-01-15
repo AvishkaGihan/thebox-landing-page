@@ -2,7 +2,7 @@ import AboutHero from "../assets/images/aboutImage.png";
 
 const AboutSection = () => {
   return (
-    <section className="py-16 px-4 md:py-24 bg-white">
+    <section id="about" className="py-16 px-4 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="w-full lg:w-3/4 lg:mr-auto h-auto relative">
           <img
