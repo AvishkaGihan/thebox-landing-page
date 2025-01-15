@@ -7,6 +7,7 @@ import AchievementsSection from "./sections/AchievementsSection";
 import ConsultationBanner from "./sections/ConsultationBanner";
 import ProjectsGallery from "./sections/ProjectsGallery";
 import ContactForm from "./sections/ContactForm";
+import Footer from "./sections/Footer";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <ConsultationBanner />
         <ProjectsGallery />
         <ContactForm />
+        <Footer />
       </main>
     </div>
   );

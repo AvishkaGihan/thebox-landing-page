@@ -29,7 +29,9 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <div className="flex items-center gap-3">
               <img src={logo} alt="logo" className="h-8 w-auto" />
-              <span className="text-2xl font-bold text-primary">TheBox</span>
+              <span className="text-2xl font-bold text-primary">
+                <span className="italic">The</span>Box
+              </span>
             </div>
           </div>
 

@@ -1,16 +1,18 @@
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { projects } from "../constants";
+import { featuredProjects } from "../constants";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % projects.length);
+    setCurrentSlide((prev) => (prev + 1) % featuredProjects.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + projects.length) % projects.length);
+    setCurrentSlide(
+      (prev) => (prev - 1 + featuredProjects.length) % featuredProjects.length
+    );
   };
 
   return (
@@ -19,7 +21,7 @@ const Hero = () => {
       <div className="absolute inset-0 w-full h-full">
         <div className="relative w-full h-full">
           <img
-            src={projects[currentSlide].image}
+            src={featuredProjects[currentSlide].image}
             alt="Modern architecture"
             className="w-full h-full object-cover"
           />
@@ -45,7 +47,7 @@ const Hero = () => {
         <div className="p-4 sm:p-8 text-center">
           <h2 className="text-base font-bold mb-4">Feature Projects</h2>
           <h3 className="text-lg sm:text-xl font-normal max-w-xs mx-auto transition-all duration-300">
-            {projects[currentSlide].title}
+            {featuredProjects[currentSlide].title}
           </h3>
         </div>
 
